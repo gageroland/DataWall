@@ -1,0 +1,84 @@
+Team Members:
+Robert Roland, Computer Science/HCI
+Chase Moudry, Game Programming
+
+
+
+Technical Field
+Data Wall involves three major areas in development: simulation building, web development, and visualization. This project involves the technical fields of game programming, computer science, and human-computer interaction.
+
+Background Information
+The inception of Data Wall came from a study of turning a large amount of data into a usable, well designed tool for users. Immigration data of legal and illegal residence was selected because this information is well documented, but the documentation is hardly usable. The site and simulation’s goal is to turn over 10,000 documents, PDFs, and Excel sheets into an interactive and accessible tool.
+
+Prior Art (legal term)
+Prior inspiration can be found from:
+Metrocosm by Max Galka - http://metrocosm.com/us-immigration-history-map.html
+American Migration Interactive Maps - https://www.forbes.com/special-report/2011/migration.html
+The Migration Policy Institute - http://www.migrationpolicy.org/programs/data-hub/maps-foreign-born-united-states
+
+Project Description
+Data Wall is a collection of the conceptual data of immigration into the United States to be an accessible platform of usable data. The target use is amateur to professional research on specific and long term views of immigration data between the United States and Mexico. The intended use is to evaluate comparative and collective data sets of specific information like age by sex, migration to states, jobs, crime, border patrol, and comparing to all other states.
+
+Innovation Claim
+Data Wall is a collection of the conceptual data of immigration into the United States to be an accessible platform of usable data.
+
+Usage Scenario
+The usage of this website is to interact with a large amount of immigration data from (initially) 2005 to 2014 including the census with the data map. The user will be able to use their own parameters of times, locations, and data types (age, sex, jobs, legal, illegal) and navigate through the map. 
+The overview home page is for general stats to give context to what information is on the site and within the interactive map that will be the first thing users will see on the site. Below the interactive map are the overview data sets. The specific immigration focus is on Mexico and the United States.
+State pages look into more detailed information on a specific state. For the initial development, the focus is on ten states - Arizona, California, Florida, Georgia, Illinois, New Jersey, New York, North Carolina, Texas, and Washington. These pages will focus on their “distinct” features like immigration into that state, the popularity versus the other 49 states, a writeup on data for that state, and a focus on legal immigration.
+The resource section is for users that want to see where the information is coming from and how it is being used. Some information has been created from the source information like percentages, totals, even distributions, and other “methods” being used. This section does not only cite the sources, but explains the process of any method used in order to find any information.
+
+Evaluation Criteria
+Is the DataMap hardware-independent in regards to performance?
+Is the website usable on Chrome, Firefox, Safari, and Internet Explorer?
+Is the website usable on mobile?
+Is the information on the website self-contained?
+(Meaning: The user will not have to leave the site to learn terms/information mentioned within the website.)
+Does DataWall accurately represent the data presented in DHS sources?
+Does the DataMap accurately represent the data presented on the website?
+Is all information properly cited and accessible to the user?
+Does DataWall offer more content or more of an experience than similar immigration visualization sites?
+
+Objectives and Tasks Associated with the Project
+- Build the infrastructure of the website (Homepage layout, state pages, navigation).
+	-  Website will be similar to Google Material guidelines.
+	- HTML/CSS/JavaScript building and changing (weekdays)
+	- Public testing and Reporting (Saturdays)
+	- Commit new code and reports (Sundays)
+	- Push new code to repository (Sundays)
+- Build charts to represent the data. (AKA "Chart Framework")
+	- Research chart/graph building for web
+	- Create the template files that will be implemented
+	- Insert into website (following the above workflow)
+	- Insert data as needed in each chart
+- Implement statistics to the chart framework.
+	- Organize cohesive data repository that will hold all statistics the site represents
+	- Organize what data needs to be represented in each chart
+	- Insert the data into that chart
+- Build the backed of the website to be responsive to device type and screen type.
+	- Follow website workflow listed above
+- Build DataMap framework to handle visualization of statistical information.
+	- Evaluate priority of backlog features primarily based on importance and ease
+	   of creation/implementation
+	- Plan GUI layout for DataMap (positioning, layering, navigation)
+	- Build DataMap framework and test with sample data for precision/consistency
+	- Continual UX testing
+- Implement statistics into the DataMap in relevance to information available through the site.
+	- Implement finalized statistics and test for accuracy with the site as a
+	   comparative resource
+	- Create/Implement assets to match thematics of site
+	- Performance Testing/Optimization
+
+Description of Design Prototype
+Together with text, charts, and the interactive map, the website is meant to act as a method to convey meaningful information on each relevant page. For example, the overview page lays out a “big picture” for the United States with information like age, sex, and nationality of legal and illegal immigrants. The overview page also peaks at the 10 states the project focuses on. The interactive map is the interaction piece of the site that brings all of the data on the pages to life in a fluid display of data.
+There are ten state specific pages that reflect the ten states DHS has focused on from 2005 to 2012. This focus on the states allows for more detailed information on state specific features like immigration numbers/percentage, age and sex of immigrants, jobs of legal permanent residence and more. This all gives a more cohesive view.
+
+Evaluation Plan
+Provide a complete, paragraph style description of the plan that is to be used to evaluate your project.   This section should be a description of the full plan for how the team will go about answering the “Evaluation Criteria” questions.  Do not simply repeat the questions!
+Note: This section must be revised prior to PRO483 to describe the full evaluation plan as it was actually implemented.
+
+Project Completion Assessment
+Note: This section must completed prior to PRO483.
+Provide an in-depth description of the completion assessment of your project. Describe how well the completed components function and highlight the innovative facets of your design.  This is sometimes known as a “Post-Mortem” or “Lessons-Learned Report”.  A good approach for this section is to answer the following 4 questions:  “What went right?  What went wrong? What was learned throughout the process? What would be done differently if you had to do it again?
+
+Appendices
