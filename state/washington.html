@@ -1,0 +1,36 @@
+<!Doctype HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../common.css">
+        <title>Washington - DataWall</title>
+    </head>
+    <body>
+        <div id="side-navigation" class="side-navigation-bar">
+            <a href="javascript:void(0)" class="close-side-navigation-bar"
+               onclick="closeNavBar()">&times;</a>
+            <a href="../index.html">DataWall</a>
+            <a href="../map.html">DataMap</a>
+            <a href="../state/arizona.html">Arizona</a>
+            <a href="../state/california.html">California</a>
+            <a href="../state/florida.html">Florida</a>
+            <a href="../state/georgia.html">Georgia</a>
+            <a href="../state/illinois.html">Illinois</a>
+            <a href="../state/new-jersey.html">New Jersey</a>
+            <a href="../state/new-york.html">New York</a>
+            <a href="../state/north-carolina.html">North Carolina</a>
+            <a href="../state/texas.html">Texas</a>
+            <a href="../state/washington.html">Washington</a>
+        </div>
+        <span style="cursor:ponter" onclick="openNavBar()">&#9776; Pages</span>
+        <script>
+        	function openNavBar()
+            {
+                document.getElementById("side-navigation").style.width = "250px";
+            }
+            function closeNavBar()
+            {
+                document.getElementById("side-navigation").style.width = "0";
+            }
+        </script>
+	</body>
+</html>
