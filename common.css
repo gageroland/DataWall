@@ -1,0 +1,71 @@
+.site-container
+{
+}
+
+.side-navigation-bar-static
+{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.7s;
+    padding-top: 65px;
+}
+.side-navigation-bar
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.7s;
+    padding-top: 20px;
+}
+.side-navigation-bar a,.side-navigation-bar-static a
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.side-navigation-bar a:hover,.side-navigation-bar-static a:hover
+{
+    color: #f1f1f1;
+}
+.side-navigation-bar .closeNavBar
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media screen and (max-height: 450px)
+{
+    .side-navigation-bar
+    {
+        padding-top: 15px;
+    }
+    .side-navigation-bar a
+    {
+        font-size: 18px;
+    }
+}
+
+.index-container
+{
+    margin-left: 250px;
+}
+.data-wall-main-img
+{
+    
+}
